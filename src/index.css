@@ -95,6 +95,22 @@ p {
   margin-bottom: 1.25rem;
   color: var(--clr-grey-3);
 }
+
+span {
+  color: var(--clr-red-dark);
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
 @media screen and (min-width: 800px) {
   h1 {
     font-size: 3rem;
@@ -167,7 +183,8 @@ main {
   width: 100%;
   margin: 0.7rem auto;
   background: var(--clr-primary-9);
-  border: none;
+  border-left: 7px solid var(--clr-primary-4);
+  border-right: 7px solid var(--clr-primary-4);
   color: var(--clr-black);
   letter-spacing: var(--spacing);
   font-size: 1rem;
@@ -195,7 +212,7 @@ main {
 .next-question,
 .close-btn,
 .submit-btn {
-  border-radius: 1.5rem;
+  border-radius: 0.5rem;
   border-color: transparent;
   padding: 0.7rem;
   display: block;
@@ -245,7 +262,7 @@ Form
   font-size: 1rem;
   padding: 0.7rem 1rem;
   width: 100%;
-  border-radius: 1.5rem;
+  border-radius: 0.5rem;
 }
 .error {
   color: var(--clr-red-dark);
